@@ -1,2 +1,77 @@
 @import "heading.css";
 @import "paragraph.css";
+
+*{
+  font-family: "Arial Black" Gadget, sans-serif;
+}
+
+div * {
+  font-family: "Comic Sans MS", cursive, sans-serif;
+}
+.siteLink{
+  font-family: Georgia, serif;
+}
+
+#tonyquote{
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  color: black;
+}
+
+span#tonyname{
+  font-family: "Times New Roman", Times, serif;
+  color: red;
+}
+
+#tutorials ol li{
+  color: purple;
+}
+
+#tutorials ul li{
+  color: green;
+}
+
+/*the + sign targets the paragraph immediately after the h3 tag*/
+h3 + p{
+  font-style: italic;
+}
+
+/*targeting the lick inside a paragraph*/
+h3 + p > a{
+  color: salmon;
+}
+
+/*targeting all paragraphs that have a class, mo matter of the class' name */
+p[class]{
+  background: gray;
+}
+
+/*targeting all paragraphs that have id, no matter of the ID's name*/
+p[id]{
+  background: yellow;
+}
+
+/*targeting all list items with the alt = "nintendo" */
+*[alt~="nintendo"]{
+  background: orange;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
