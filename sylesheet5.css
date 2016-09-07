@@ -1,0 +1,96 @@
+a:hover { color: blue; }
+a:active { color: red; }
+a:visited { color: #989898; }
+ 
+body {
+  background: #5D8AA8;
+}
+ 
+div#wrapper{
+  margin:0 auto;
+  background:white;
+  width:800px;
+  height:1500px;
+}
+ 
+header {
+  /* Display like a <p> instead of like a <span> */
+  display:block;
+  /* Padding Top, Right, Bottom, Left */
+  padding: 0px 0px 10px 0px;
+}
+ 
+#websiteLogo{
+  padding: 5px 0px 0px 5px;
+}
+ 
+/* Treat the nav tag as a block element */
+#horzNav {
+  display:block;
+  /* Padding Top, Right, Bottom, Left */
+  padding: 5px 20px 5px 0px;
+  background: black;
+}
+ 
+/* Remove underlines from links in the nav element */
+#horzNav a {
+  text-decoration: none;
+  padding: 0px 0px 0px 20px;
+  color: white;
+}
+ 
+/* Add hover color */
+#horzNav a:hover {
+  color: #89CFF0;
+}
+ 
+main {
+  /* Padding Top, Right, Bottom, Left */
+  padding: 10px 10px 20px 20px;
+  float: left;
+  width: 600px;
+}
+ 
+#sidebar{
+  padding: 20px 10px 0px 10px;
+  float: right;
+  width: 150px;
+  height: auto;
+  background: #DBE9F4;
+}
+ 
+h2{
+  font-size: 1em;
+}
+ 
+/* text-align aligns text either to the left, center, or right */
+/* word-spacing defines the size of the space between words */
+#para-1 {
+  text-align: left;
+  word-spacing: .5em;
+}
+ 
+#para-2 {
+  text-align: right;
+}
+ 
+#para-3 {
+  text-align: center;
+}
+ 
+#para-4 {
+  text-indent: 2em;
+}
+ 
+/* letter-spacing changes the space between letters */
+#para-5 {
+  letter-spacing: .5em;
+}
+ 
+/* clear makes sure no elements appear next to footer */
+footer{
+  clear: both;
+  background: black;
+  color: white;
+  padding: 10px 10px 10px 10px;
+}
